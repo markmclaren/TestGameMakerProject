@@ -20,13 +20,15 @@
     <script>scripts\scr_main_event_loop.gml</script>
     <script>scripts\scr_getinputs.gml</script>
     <script>scripts\scr_choose_next_player.gml</script>
+    <script>scripts\scr_common_behaviours.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_red</object>
     <object>objects\obj_yellow</object>
     <object>objects\obj_green</object>
     <object>objects\obj_blue</object>
-    <object>objects\obj_player_parent</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_parent</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
